@@ -16,7 +16,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background("green");
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
